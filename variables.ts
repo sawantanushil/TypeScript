@@ -7,6 +7,10 @@ console.log(p);
 
 //homodenous array
 var aar1:Array<string>=["Angular","JavaScript","Recact"];
+
+console.log(aar1);
+console.log(aar1[1]);
+
 //hetrogenous array
 var aar2:Array<any>=['Anushil',123456,true];
 aar2.push(".Netcore");

@@ -6,6 +6,8 @@ var p = {
 console.log(p);
 //homodenous array
 var aar1 = ["Angular", "JavaScript", "Recact"];
+console.log(aar1);
+console.log(aar1[1]);
 //hetrogenous array
 var aar2 = ['Anushil', 123456, true];
 aar2.push(".Netcore");
@@ -20,7 +22,7 @@ var b1 = true;
 var b2 = false;
 var b3;
 function test() {
-    b3 = false;
-    console.log(b3);
+    return b3 = false;
+    console.log(b3); // unrechable code
 }
 console.log(test());
