@@ -31,5 +31,9 @@ var hello=(name:string):string=>{
   return "hello"+" " + name;
 }
 console.log(hello("Angular batch 4"));
-
+ 
+var multi=(num1:number,num2:number):number=>{
+   return num1*num2;
+}
+console.log(multi(2,9));
 

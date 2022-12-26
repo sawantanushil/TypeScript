@@ -29,3 +29,10 @@ function display(id, name, role) {
     console.log("Role", role);
 }
 display(1, "Anushil", "Admin");
+var student = {
+    name: "Anushil",
+    lname: "Sawant"
+};
+for (var st in student) {
+    console.log(st);
+}

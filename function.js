@@ -31,3 +31,7 @@ var hello = function (name) {
     return "hello" + " " + name;
 };
 console.log(hello("Angular batch 4"));
+var multi = function (num1, num2) {
+    return num1 * num2;
+};
+console.log(multi(2, 9));
