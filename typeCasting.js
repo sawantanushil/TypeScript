@@ -1,0 +1,12 @@
+"use strict";
+exports.__esModule = true;
+var leet;
+leet = '12345666';
+var numberes = +leet;
+console.log(numberes === 12345666);
+console.log('====================================');
+console.log(numberes);
+console.log('====================================');
+var utils_1 = require("./utils");
+console.log((0, utils_1.isPalindrome)('madam'));
+console.log((0, utils_1.isPalindrome)('madan'));
